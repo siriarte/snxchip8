@@ -1,0 +1,168 @@
+.tittle_color {
+    //color : #46b8da;
+    color: #00d9f7;
+}
+
+.mail_link a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+.mail_link a:link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.mail_link a:link{
+    color: inherit;
+    text-decoration: none;
+}
+
+@font-face {
+      font-family: EraserRegular;
+      src: url(../font/Minecraftia-Regular.ttf);
+    }
+
+.about-links{
+    margin-left: 10px;
+}
+
+ .phaser-center {
+    display: block;
+    border-bottom-color: black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid #ddd;
+ }
+ 
+ .center-big {
+    width: 520px;
+    height: 266px; 
+ }
+ 
+ .center-footer {
+    width: 520px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+.center-med {
+    width: 394px;
+    height: 200px; 
+ }
+ 
+ .center-sml {
+    width: 200px;
+    height: 105px; 
+ }
+ 
+.main-column {
+   //background-color:#ebebeb;   
+   background-color: white; 
+}
+
+.center-table
+{
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+table {
+    width:15px;
+    text-align: center;
+    
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 720px;
+        height: 420px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: white;
+}
+
+.modalDialogAbout {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialogAbout:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialogAbout > div {
+	width: 600px;
+        height: 400px;
+	position: relative;
+	margin: 5% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: white;
+}
+
+.close {
+	background: #fff;
+	color: #fff;
+	line-height: 25px;
+	position: absolute;
+	right: -15px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	//-moz-box-shadow: 1px 1px 3px #000;
+	//-webkit-box-shadow: 1px 1px 3px #000;
+	//box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  padding-top: 10px;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
